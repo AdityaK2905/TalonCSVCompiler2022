@@ -53,13 +53,7 @@ public class FileListActivity extends AppCompatActivity {
         FileWriter writer = new FileWriter(currentFile);
 
         String entry = "";
-        /*
 
-        ArrayList<File> filesToCompile = new ArrayList<>();
-        for (File f : list ){
-            filesToCompile.add(f);
-        }
-        */
         for (File f : list) {
             entry = "";
             Scanner sc = new Scanner(f);
